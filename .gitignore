@@ -1,3 +1,4 @@
 lib
-log
+log/**
+db/development.sqlite3log/development.log
 db/development.sqlite3

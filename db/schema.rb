@@ -11,6 +11,12 @@
 
 ActiveRecord::Schema.define(:version => 20100521160414) do
 
+  create_table "distances", :force => true do |t|
+    t.integer "station_1_id"
+    t.integer "station_2_id"
+    t.float   "distance"
+  end
+
   create_table "lines", :force => true do |t|
     t.string "color"
   end
